@@ -1,0 +1,56 @@
+/* Colors */
+:root{
+   --colorMain: #610462;
+   --white: #ffffff;
+   --black: #000000;
+   --grey: #505050;
+}
+
+
+/* Tag */
+button{
+   width: 3em;
+   height: 3em;
+   font-size: 1.5em;
+   border-style: none;
+   border-radius: 100%;
+   margin: 0.3em;
+}
+
+/* Classname */
+.wrapper{
+   background-color: var(--black);
+   border-radius: 3em;
+   padding: 1em;
+}
+.colorMain{
+   background-color: var(--colorMain);
+   color:  var(--white);
+}
+.colorSecundaria{
+   background-color: var(--grey);
+   color: var(--white);
+}
+.resultado{
+   color: var(--white);
+   text-align: end;
+   margin-right: 1em;
+   font-size: 3em;
+}
+
+/* ID */
+#zero{
+   border-radius: 3em;
+}
+
+/* Hover */
+button:hover{
+   cursor: pointer;
+}
+
+/* Media screen */
+@media(min-width: 425px){
+   #zero{
+      width: 41%;;
+   }
+}
