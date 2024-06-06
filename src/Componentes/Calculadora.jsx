@@ -51,11 +51,11 @@ export default function Calculadora(){
       <Box m={2}>
       <Container maxWidth="xs">      
       <div className="wrapper">
-      <h1 className="resultado">{num}</h1>\
+      <h1 className="resultado">{num}</h1>
          <button onClick={clear}>AC</button>
          <button onClick={negativo}>+/-</button>
          <button onClick={porcentagem}>%</button>
-         <button className="colorMain" onClick={operator} value="/">/</button>s
+         <button className="colorMain" onClick={operator} value="/">/</button>
          <button className="colorSecundaria" onClick={inputNum} value={7}>7</button>
          <button className="colorSecundaria" onClick={inputNum} value={8} >8</button>
          <button className="colorSecundaria" onClick={inputNum} value={9}>9</button>
